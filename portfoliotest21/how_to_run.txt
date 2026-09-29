@@ -1,0 +1,64 @@
+========================================================================
+                      HOW TO RUN THE 3D PORTFOLIO
+========================================================================
+
+This project is built using Next.js, Framer Motion, GSAP, and Three.js.
+Follow the steps below to set up and run the project locally.
+
+------------------------------------------------------------------------
+1. PREREQUISITES
+------------------------------------------------------------------------
+- Node.js (v18 or later recommended)
+- npm or yarn
+
+------------------------------------------------------------------------
+2. INSTALLATION
+------------------------------------------------------------------------
+Navigate to the project directory and install the dependencies:
+
+   cd 3d-portfolio
+   npm install
+
+   # OR if you prefer yarn:
+   yarn install
+
+------------------------------------------------------------------------
+3. ENVIRONMENT VARIABLES (Optional)
+------------------------------------------------------------------------
+If there are environment variables needed:
+1. Copy the `.env.example` file to a new file named `.env.local`:
+   cp .env.example .env.local
+2. Open `.env.local` and add any necessary API keys or configurations.
+
+------------------------------------------------------------------------
+4. RUNNING THE DEVELOPMENT SERVER
+------------------------------------------------------------------------
+Start the development server:
+
+   npm run dev
+
+   # OR
+   yarn dev
+
+Once the server is running, you can view the application at:
+http://localhost:3000
+
+------------------------------------------------------------------------
+5. BUILDING FOR PRODUCTION
+------------------------------------------------------------------------
+To create an optimized production build:
+
+   npm run build
+
+To start the production server:
+
+   npm run start
+
+------------------------------------------------------------------------
+6. LINTING
+------------------------------------------------------------------------
+To check for code quality and linting errors:
+
+   npm run lint
+
+========================================================================
